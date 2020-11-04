@@ -1,50 +1,20 @@
-body {
-	margin: 0;
+.full_height {
+	height: 100vh;
 }
 
-img {
-	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: -1;
-	filter: hue-rotate(-35deg);
+.hundred_height {
+	height: 100%;
 }
 
-h2 {
-	color: #156f79;
-	font-weight: bolder;
-	font-size: x-large;
-	letter-spacing: 4px;
+.bg_blue,
+.bg_blue2 {
+	padding-top: 4rem;
 }
 
-img {
-	width: 100%;
-	height: 700px;
+.bg_blue {
+	background-color: rgb(97, 117, 117);
 }
 
-h1 {
-	color: #ffffff;
-	text-align: center;
-	font-size: 46px;
-}
-
-.justify {
-	text-align: right;
-}
-
-.container {
-	margin-top: 450px;
-	margin-left: 200px;
-	margin-right: 200px;
-	padding-bottom: 2.5rem;
-}
-
-footer {
-	height: 4rem;
-	width: 100%;
-	position: absolute;
-	background-color: #134449;
-	text-align: center;
-	color: lightgray;
-	bottom: 0;
+.bg_blue2 {
+	background-color: azure;
 }
